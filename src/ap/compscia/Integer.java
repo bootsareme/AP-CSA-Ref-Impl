@@ -26,25 +26,4 @@ public class Integer {
     public int intValue() {
         return this.value;
     }
-
-    /**
-     * Overrides java.lang.Object.toString() as it prints the object's hashcode by default
-     * @return String representation of an Integer
-     */
-    @Override
-    public String toString() {
-        return this.value + "";
-    }
-
-    /**
-     * Overrides java.lang.Object.equals()
-     * @return true if the other Integer equals this Integer; returns false otherwise
-     */
-    @Override
-    public boolean equals(Object other) {
-        if (this.getClass() != other.getClass()) // objects' classes must match in order to compare
-            return false;
-        /* must cast, because overriden method signature does not specify WHICH object type */
-        return this.value == ((ap.compscia.Integer)other).value;
-    }
 }
