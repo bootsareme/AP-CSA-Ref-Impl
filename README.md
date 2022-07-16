@@ -10,7 +10,7 @@ This library contains implementations for the AP Computer Science A Java Quick R
 | `String substring(int from)` | Returns `substring(from, length())`
 | `int indexOf(String str)` | Returns the index of the first occurrence of `str`; returns `-1` if not found
 | `boolean equals(String other)` | Returns `true` if `this` is equal to `other`; returns `false` otherwise
-| `int compareTo(String other` | Returns a value `<0` if `this` is less than `other`; returns zero if `this` is equal to `other`; returns a value `>0` if `this` is greater than `other`
+| `int compareTo(String other)` | Returns a value `<0` if `this` is less than `other`; returns zero if `this` is equal to `other`; returns a value `>0` if `this` is greater than `other`
 | `Integer(int value)` | Constructs a new `Integer` object that represents the specified `int` value
 | `Integer.MIN_VALUE` | The minimum value represented by an `int` or `Integer`
 | `Integer.MAX_VALUE` | The maximum value represented by an `int` or `Integer`
