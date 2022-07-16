@@ -33,7 +33,7 @@ This library contains implementations for the AP Computer Science A Java Quick R
 
 As the Quick Reference already uses Java's standard library as its foundation, this library serves no practical purpose outside the teaching environment. Its creation is meant for educators and students to learn about the implementations of frequently discussed concepts in the Advanced Placement Computer Science A curriculum.
 - ❌ IT IS NOT: a wrapper for Java's standard library.
-- ❌ IT IS NOT: an efficient or highly-optimized library; Use Java's standard library for all practical purposes.
+- ❌ IT IS NOT: an efficient or highly-optimized library; use Java's standard library for all practical purposes.
 - ❌ IT DOES NOT: contain all the methods for specified class. (ONLY contains the methods listed in the Quick Reference; for example, this `String` class doesn't have `char charAt(int index)`.)
 - ❌ IT DOES NOT: follow enterprise documentation conventions; it is merely a teaching tool.
 - ✔️IT DOES: allow learners to explore the inner-workings of common Java functions without cluttered boilerplate code.
