@@ -1,7 +1,7 @@
 package ap.compscia;
 
 /**
- * Implementation of the Integer class as specified by the AP Computer Science A Java Quick Reference standard.
+ * Implementation of the Integer class as specified by the AP Computer Science A Java Quick Reference standard
  * @author  bootsareme
  * @see     java.lang.Integer
  */
@@ -14,7 +14,7 @@ public class Integer {
 
     /**
      * Constructs a new Integer object that represents the specified int value
-     * @param value the primitive integer value.
+     * @param value the primitive integer value
      */
     public Integer(int value) {
         this.value = value;
