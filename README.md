@@ -43,7 +43,7 @@ As the Quick Reference already uses Java's standard library as its foundation, t
 Every method will be furnished with comments and documentation and the implementation will always be the most intuitive and simple to grasp, although the implementations are NOT reflective of Java's official implementations. The goal is to provide accurate and simple implementations for learners who may feel daunted when looking at Java's source code.
 
 ## How To Use
-Download the JAR library in the "Releases" section and add it as an external JAR reference to start using the library. Ways of importing the JAR may differ between IDEs, please search up how to import a JAR library as your mileage may vary. Except for the `ArrayList` class, all other classes are defined in `java.lang`, which may cause conflicts in naming. To prevent this issue, define all objects as follows:
+Download the JAR library in the "Releases" section and add it as an external JAR reference to start using the library. Ways of importing the JAR may differ between IDEs, so please search up how to import a JAR library as your mileage may vary. Except for the `ArrayList` class, all other classes are defined in `java.lang`, which may cause confusion in naming. To prevent this ambiguity, the recommended way of defining all objects is as follows:
 
 ```java
 import ap.compscia.ArrayList; // only ArrayList can be imported
