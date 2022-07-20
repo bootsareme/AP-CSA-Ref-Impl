@@ -49,6 +49,7 @@ Download the JAR library in the "Releases" section and add it as an external JAR
 import ap.compscia.ArrayList; // only ArrayList can be imported
 
 public class Example {
+    
     public static void main(String[] args) {
         ArrayList<E> arrayList = new ArrayList<E>(); // refers to ap.compscia.ArrayList
         Integer someInt = 59; // this refers to java.lang.Integer
