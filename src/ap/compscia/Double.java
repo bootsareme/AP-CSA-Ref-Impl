@@ -7,7 +7,7 @@ package ap.compscia;
  */
 public class Double {
 
-    private double value; // private field that holds the double value
+    private final double value; // private field that holds the double value
 
     /**
      * Constructs a new Double object that represents the specified double value
