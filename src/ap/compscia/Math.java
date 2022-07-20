@@ -3,7 +3,7 @@ package ap.compscia;
 /**
  * Implementation of the Math class as specified by the AP Computer Science A Java Quick Reference standard.
  * @author  bootsareme
- * @see     java.lang.StrictMath;
+ * @see     java.lang.StrictMath
  */
 public final class Math {
 
