@@ -40,7 +40,7 @@ public final class Math {
      * @return the positive square root of a double value
      */
     public static double sqrt(double x) {
-        return pow(x, 0.5);
+        return Math.pow(x, 0.5);
     }
 
     /**

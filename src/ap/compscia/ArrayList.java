@@ -30,7 +30,7 @@ public class ArrayList<E> {
 
     /**
      * Private utility method that is NOT specified in the Quick Reference;
-     * Used to help reduce duplicate code and for clarity. Guarantees that this list
+     * used to help reduce duplicate code and for clarity. Guarantees that this list
      * will have at least enough capacity to hold minCapacity elements. Will grow to
      * max(current * 2, minCapacity) if minCapacity > current.
      * @param minCapacity the minimum guaranteed capacity
